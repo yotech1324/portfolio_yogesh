@@ -306,6 +306,11 @@ img {
   border-radius: 0.5rem;
 }
 
+.resume{
+  display: flex;
+  width: 200px;
+  /* height: 250px; */
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
@@ -340,6 +345,12 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+}
+
+.contact_details{
+  font-size: large;
+  font-style: italic;
+  font-weight: 700;
 }
 
 /* ===== FOOTER =====*/
